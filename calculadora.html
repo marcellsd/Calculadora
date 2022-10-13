@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<html lang="ptr-br">
+
+    <head>
+        <title>Calculadora</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="estilo.css"/>
+        <script src="calculadora.js"></script>
+    </head>
+    <body>
+        <div class="grid">
+            <div class="display" id="display"></div>
+            <button onclick="valorClick(this)">7</button>
+            <button onclick="valorClick(this)">8</button>
+            <button onclick="valorClick(this)">9</button>
+            <button onclick="somar()">+</button>
+            <button onclick="valorClick(this)">4</button>
+            <button onclick="valorClick(this)">5</button>
+            <button onclick="valorClick(this)">6</button>
+            <button onclick="subtrair()">-</button>
+            <button onclick="valorClick(this)">1</button>
+            <button onclick="valorClick(this)">2</button>
+            <button onclick="valorClick(this)">3</button>
+            <button onclick="multiplicar()">*</button>
+            <button class="zero" onclick="valorClick(this)">0</button>
+            <button class="igual" onclick="resultado()">=</button>
+            <button onclick="valorClick(this)">,</button>
+            <button onclick="dividir()">/</button>
+            <button class="AC" onclick="zerar()">AC</button>
+        </div>
+    </body>
+
+
+</html>

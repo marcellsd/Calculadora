@@ -1,0 +1,51 @@
+@charset "UTF-8";
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
+.grid{
+    display: grid;
+    padding: 100px;
+    background-color: dimgray;
+    grid-template-columns: 3em 3em 3em 3em;
+    grid-template-rows: 3em 3em 3em 3em 3em 3em;
+    gap: 5px;
+    justify-content: center;
+    padding: 20px;
+}   
+    
+.grid > button{
+    background-color:chartreuse;
+    text-align:center;
+    font-size: 25px;
+    border: none;
+    outline: none;
+}
+
+div .display{
+    background-color: white;
+    grid-area: 1/1/1/5;
+    text-align:right;
+    font-size: x-large;
+}
+
+.grid .zero{
+    background-color: white;
+    grid-area: 5/1/7/1;
+}
+
+.grid .igual{
+    background-color: white;
+    grid-area: 5/2/7/2;
+}
+
+.grid > button:hover {
+    background-color:mediumseagreen; /* Green */
+    color:black;
+  }
+
+.grid .AC{
+    background-color: white;
+    grid-area: 6/3/6/5;
+}
